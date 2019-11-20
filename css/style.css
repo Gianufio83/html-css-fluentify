@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  /* background-color: red; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-top {
+  height: 450px;
+  background-color: #0c325a;
+  background-image: url("../img/oldman.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: 110% 110%;
+  color: #fff;
+}
+.header-nav {
+  width: 85%;
+  margin:0 auto;
+  height: 80px;
+  line-height: 80px;
+}
+.header-nav::after {
+  content:"";
+  display:table;
+  clear:both;
+}
+.header-nav-left {
+  float:left;
+}
+.header-nav-right {
+  float:right;
+}
+.list-inline {
+  list-style: none;
+}
+.list-inline li {
+  display:inline;
+  padding: 0 8px;
+}
+.list-inline a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.list-inline .logo {
+  margin-right: 12px;
+}
+.bannerone {
+  position:relative;
+  width: 85%;
+  height: 370px;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+}
+.txt-bannerone {
+  width: 50%;
+  position:absolute;
+  top:50%;
+  left: 0;
+  transform:translateY(-50%);
+}
+.txt-bannerone h1 {
+  font-size: 40px;
+  color: #fff;
+ }
+.button a {
+  text-decoration: none;
+  display: inline-block;
+  line-height: 20px;
+  border-radius: 8px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.button-gren {
+  background-color: #7cbb02;
+}
+.main-upper {
+  width: 100%;
+  height: 80px;
+  background-color: lightgrey;
+  }
+.main.top  {
+  width: 100%;
+  /* background-color: yellow; */
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+}
+.footer-left {
+  width: 50%;
+  background-color: pink;
+  display: inline;
+}
+.footer-right {
+  width: 50%;
+  background-color: orange;
+  display: inline;
+}
